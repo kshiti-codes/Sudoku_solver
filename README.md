@@ -8,9 +8,10 @@
 Initializes the Sudoku board.
 Calls the solveSudoku method to solve the puzzle.
 Prints the solved board if a solution is found.
-solveSudoku Method:
 
-2. Iterates over each cell in the board.
+2. solveSudoku Method:
+
+Iterates over each cell in the board.
 Tries placing numbers 1 to 9 in each empty cell.
 Uses the isValid method to check if the placement is valid.
 Recursively calls itself to solve the next cell.
